@@ -61,3 +61,15 @@
 2026-05-01 14:56:28,770 INFO backend Opportunity deleted admin_id=3 opportunity_id=2
 2026-05-01 14:58:51,348 INFO backend Opportunity created admin_id=3 opportunity_id=3
 2026-05-01 15:03:01,136 INFO backend Opportunity created admin_id=3 opportunity_id=4
+2026-05-01 15:10:07,698 INFO backend Opportunity updated admin_id=3 opportunity_id=4
+2026-05-01 15:10:17,921 INFO backend Opportunity updated admin_id=3 opportunity_id=4
+2026-05-01 15:10:28,913 INFO backend Opportunity deleted admin_id=3 opportunity_id=4
+2026-05-01 15:26:08,626 INFO backend Opportunity updated admin_id=3 opportunity_id=3
+2026-05-01 15:29:38,700 INFO backend Opportunity updated admin_id=3 opportunity_id=3
+2026-05-01 15:29:45,730 INFO backend Opportunity updated admin_id=3 opportunity_id=3
+2026-05-01 15:29:51,869 INFO backend Opportunity deleted admin_id=3 opportunity_id=3
+2026-05-01 15:43:46,364 INFO backend Login attempt for email=tarunlakkimsetty@gmail.com
+2026-05-01 15:43:47,078 INFO backend Login successful for email=tarunlakkimsetty@gmail.com
+2026-05-01 15:45:05,750 INFO backend Opportunity created admin_id=3 opportunity_id=5
+2026-05-01 15:45:26,476 INFO backend Opportunity updated admin_id=3 opportunity_id=5
+2026-05-01 15:45:41,349 INFO backend Opportunity deleted admin_id=3 opportunity_id=5
