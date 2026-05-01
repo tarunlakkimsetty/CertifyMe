@@ -1,5 +1,5 @@
 from flask import Blueprint, request, jsonify
-from services.auth_service import register_admin, login_admin, forgot_password, reset_password
+from backend.services.auth_service import register_admin, login_admin, forgot_password, reset_password
 
 auth_bp = Blueprint('auth', __name__)
 

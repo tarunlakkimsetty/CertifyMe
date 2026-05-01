@@ -1,5 +1,5 @@
 from datetime import datetime
-from extensions import db, bcrypt
+from backend.extensions import db, bcrypt
 
 
 class Admin(db.Model):

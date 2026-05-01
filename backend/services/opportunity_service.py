@@ -1,11 +1,11 @@
 from datetime import date
 
-from extensions import db
-from models.opportunity import Opportunity
-from models.admin import Admin
-from utils.exceptions import ForbiddenError, NotFoundError, ValidationError
-from utils.logger import configure_logging
-from utils.validators import validate_opportunity_payload
+from backend.extensions import db
+from backend.models.opportunity import Opportunity
+from backend.models.admin import Admin
+from backend.utils.exceptions import ForbiddenError, NotFoundError, ValidationError
+from backend.utils.logger import configure_logging
+from backend.utils.validators import validate_opportunity_payload
 
 logger = configure_logging()
 

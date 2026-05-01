@@ -1,7 +1,7 @@
 import unittest
-from app import create_app
-from config import Config
-from extensions import db
+from backend.app import create_app
+from backend.config import Config
+from backend.extensions import db
 
 
 class TestConfig(Config):

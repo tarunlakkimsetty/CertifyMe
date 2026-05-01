@@ -1,4 +1,4 @@
-from extensions import db
+from backend.extensions import db
 from .admin import Admin
 from .opportunity import Opportunity
 

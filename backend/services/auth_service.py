@@ -1,16 +1,16 @@
 import secrets
 from datetime import datetime, timedelta
 
-from extensions import db
+from backend.extensions import db
 from flask_jwt_extended import create_access_token
-from models.admin import Admin
-from utils.exceptions import (
+from backend.models.admin import Admin
+from backend.utils.exceptions import (
     AuthenticationError,
     DuplicateEmailError,
     ValidationError,
 )
-from utils.logger import configure_logging
-from utils.validators import (
+from backend.utils.logger import configure_logging
+from backend.utils.validators import (
     validate_login_payload,
     validate_reset_password_payload,
     validate_signup_payload,

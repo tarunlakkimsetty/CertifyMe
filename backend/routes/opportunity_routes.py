@@ -1,6 +1,6 @@
 from flask import Blueprint, request, jsonify
 from flask_jwt_extended import jwt_required, get_jwt_identity
-from services.opportunity_service import (
+from backend.services.opportunity_service import (
     create_opportunity,
     get_opportunities_for_admin,
     get_opportunity_for_admin,

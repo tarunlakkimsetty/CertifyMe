@@ -1,12 +1,12 @@
 import os
 from flask import Flask, jsonify
 from flask_cors import CORS
-from config import Config
-from extensions import db, migrate, jwt, bcrypt
-from routes.auth_routes import auth_bp
-from routes.opportunity_routes import opp_bp
-from utils.error_handlers import register_error_handlers
-from utils.logger import configure_logging
+from backend.config import Config
+from backend.extensions import db, migrate, jwt, bcrypt
+from backend.routes.auth_routes import auth_bp
+from backend.routes.opportunity_routes import opp_bp
+from backend.utils.error_handlers import register_error_handlers
+from backend.utils.logger import configure_logging
 
 logger = configure_logging()
 
@@ -115,6 +115,8 @@ def create_app(config_object=Config):
     return app
 
 
+# Expose the application for WSGI servers like gunicorn used by Render.
+app = create_app()
+
 if __name__ == '__main__':
-    app = create_app()
     app.run(host='0.0.0.0', port=int(os.getenv('PORT', 5000)))
